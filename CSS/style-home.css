@@ -1,0 +1,207 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header{
+    background: linear-gradient(120deg, rgb(28, 28, 248), white, red);
+    padding: 20px 0;
+}
+
+.icon-1 {
+    width: 8%;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+@media screen and (max-width:  678px){
+    nav li{
+      display: none;
+    }
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(82, 82, 172);
+    text-decoration: underline;
+}
+
+
+
+.principal {
+    background-color: #fdfcfc;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.titulo-centralizado {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+        #mapa{
+            height: 450px;
+            background-color: #282626;
+            padding-top: 40px;
+        }
+
+.titulo-principal-local {
+   
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    
+}
+
+.frase-mapa{
+    color: #FFFFFF;
+}
+
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+
+.itens{
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    margin-top: 75px;
+    margin-left: px;
+    padding-left: 75px;
+    font-weight: 800;
+    
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 30px;
+    color: rgb(6, 6, 6);
+    
+}
+
+@media screen and (max-width:  678px){
+    .beneficios{
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+    }
+}
+
+.diferenciais {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width:  678px){
+    .diferenciais{
+      text-align: center;
+      padding-top: 5px;
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+}
+
+.imagembeneficios {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width:  678px){
+    .imagembeneficios{
+      display: none;
+    }
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(120deg, red, white, blue);;
+    padding: 20px;
+    
+}
+
+.principal p {
+    margin:  0 0 1em;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+
+iframe {
+    margin-left: 20px ;
+}
+
+@media screen and (max-width:  678px){
+    iframe{
+      padding-right: 400px;
+      width: 100%;
+    }
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    
+}
+
+.frase-mapa {
+    margin:  0 0 1em;
+}
